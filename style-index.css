@@ -75,12 +75,12 @@
 
 .advantage-card1 {
   position: relative;
-  background-image: url(/img/advantage-card1.svg);
+  background-image: url(img/advantage-card1.svg);
 }
 
 .advantage-card1::after {
   content: "";
-  background-image: url(/img/advantage-card1-hover.svg);
+  background-image: url(img/advantage-card1-hover.svg);
   opacity: 0;
   transition: opacity 0.5s;
   position: absolute;
@@ -97,12 +97,12 @@
 
 .advantage-card2 {
   position: relative;
-  background-image: url(/img/advantage-card2.svg);
+  background-image: url(img/advantage-card2.svg);
 }
 
 .advantage-card2::after {
   content: "";
-  background-image: url(/img/advantage-card2-hover.svg);
+  background-image: url(img/advantage-card2-hover.svg);
   opacity: 0;
   transition: opacity 0.5s;
   position: absolute;
@@ -119,12 +119,12 @@
 
 .advantage-card3 {
   position: relative;
-  background-image: url(/img/advantage-card3.svg);
+  background-image: url(img/advantage-card3.svg);
 }
 
 .advantage-card3::after {
   content: "";
-  background-image: url(/img/advantage-card3-hover.svg);
+  background-image: url(img/advantage-card3-hover.svg);
   opacity: 0;
   transition: opacity 0.5s;
   position: absolute;
@@ -141,12 +141,12 @@
 
 .advantage-card4 {
   position: relative;
-  background-image: url(/img/advantage-card4.svg);
+  background-image: url(img/advantage-card4.svg);
 }
 
 .advantage-card4::after {
   content: "";
-  background-image: url(/img/advantage-card4-hover.svg);
+  background-image: url(img/advantage-card4-hover.svg);
   opacity: 0;
   transition: opacity 0.5s;
   position: absolute;
