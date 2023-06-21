@@ -1,0 +1,280 @@
+body,
+html {
+  height: 100%;
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.row .container {
+  max-width: 1344px;
+}
+
+.footer {
+  margin-top: 100px;
+  border-top: 1px solid #D00029;
+  padding-top: 55px;
+}
+
+.footer-li {
+  margin-bottom: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  line-height: 22px;
+}
+
+/*Menu*/
+.logo-panel {
+  max-width: 204px;
+}
+
+.logo {
+  max-width: 100%;
+  max-height: auto;
+}
+
+.top-menu {
+  display: flex;
+}
+
+.bottom-menu {
+  display: flex;
+}
+
+.geo-svg {
+  background-image: url(/img/geo.svg);
+  background-repeat: no-repeat;
+  width: 15px;
+}
+
+.geo {
+  max-width: 140px;
+  font-size: 8px;
+}
+
+.myNavbar {
+  margin-left: 72px;
+  font-size: 14px;
+  max-width: 854px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.navbar-li:not(:last-child) {
+  display: inline;
+  padding-right: 48px;
+}
+
+.navbar-btn {
+  background-color: #fff;
+  border: 0px;
+  font-size: 16px;
+}
+
+.myBtn {
+  padding: 0;
+  margin: 0;
+}
+
+.catalog-ul {
+  list-style: none;
+  margin-right: 48px;
+  display: flex;
+
+}
+
+.catalog-btn {
+  margin: 0;
+  display: flex;
+  width: 171px;
+  height: 40px;
+  background: #D00029;
+  border: 1px solid #D00029;
+  border-radius: 25px;
+}
+
+.catalog-txt {
+  margin: 0;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
+.d1 {
+  background: #A3D0C3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.d1 input {
+  width: 100%;
+  height: 42px;
+  padding-left: 10px;
+  border: 2px solid #7BA7AB;
+  border-radius: 5px;
+  outline: none;
+  background: #F9F0DA;
+  color: #9E9C9C;
+}
+
+.d1 button {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  width: 42px;
+  height: 42px;
+  border: none;
+  background: #7BA7AB;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.d1 button:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: #F9F0DA;
+}
+
+/*Header*/
+
+.row-header {
+  margin-top: 96px;
+}
+
+.h1-header {
+  max-width: 604px;
+}
+
+.img-head-1 {
+  position: absolute;
+  max-width: 546px;
+  margin-left: 138px;
+}
+
+.img-head-2 {
+  position: relative;
+  max-width: 216px;
+  margin-top: 217px;
+}
+
+.header-ul {
+  margin-top: 40px;
+  padding-left: 14px;
+}
+
+.header-li {
+  color: red;
+  /* Цвет маркеров */
+}
+
+li span {
+  color: black;
+  /* Цвет текста */
+}
+
+.btn-header {
+  width: 267px;
+  height: 50px;
+  margin-top: 80px;
+  border-radius: 30px;
+}
+
+
+
+/* Style the list */
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 12px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+.footer {
+
+  margin-top: 100px;
+  border-top: 1px solid #D00029;
+  padding-top: 55px;
+}
+
+.footer-li {
+  margin-bottom: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  line-height: 22px;
+}
+
+.img-contacts {
+  width: 100%;
+}
+
+.h1-contacts {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.formContacts {
+  margin-top: 16px;
+  border: 0.5px solid rgba(53, 89, 54, 0.5);
+  border-radius: 15px;
+}
+
+.btnContacts {
+  background: #D00029;
+  border-radius: 30px;
+  width: 115px;
+}

@@ -1,0 +1,158 @@
+.service-h1 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  color: #363636;
+  margin-top: 56px;
+}
+
+.service-p-h {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 32px 0 24px 0;
+  max-width: 1210px;
+  text-align: justify;
+}
+
+.service-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  margin-bottom: 20px;
+  font-style: normal;
+}
+
+.service-p a {
+  display: inline-block;
+}
+
+.service-col {
+  display: flex;
+  margin-top: 24px;
+}
+
+.service-col-about {
+  margin-top: 120px;
+}
+
+.col {
+  max-width: 30%;
+  margin-right: 168px;
+}
+
+.col-p-top {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 100%;
+  margin-top: 24px;
+}
+
+.col-p-bottom {
+  margin-top: 4px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+}
+
+.help {
+  display: flex;
+  margin-top: 172px;
+}
+
+.help img {
+  max-width: 660px;
+}
+
+.help-text {
+  margin-left: 24px;
+}
+
+.help-text-h {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 117%;
+  max-width: 467px;
+  margin-bottom: 16px;
+}
+
+.help-text-p {
+  max-width: 270px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 138%;
+}
+
+.help-text form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  gap: 16px;
+}
+
+.help-text input {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #000000;
+  border: 0.5px solid rgba(53, 89, 54, 0.5);
+  border-radius: 15px;
+  padding: 16px;
+  padding-right: 25.21vw;
+  max-width: 660px;
+}
+
+.help-btn {
+  padding: 16px 56px;
+  background: #D00029;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin-top: 48px;
+}
+
+ul {
+  margin-left: 14px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.tone {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.tone img {
+  max-width: 200px;
+  margin-right: 25px;
+}
+
+.tone p {
+  margin-bottom: 12px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+}
+
+.stage {
+  margin-top: 29px;
+}
+
+.stage li {
+  padding-top: 8px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  list-style: decimal;
+  margin-left: 10px;
+}
+
+.stage a{
+  display: inline-block;
+  color: #D00029;
+}

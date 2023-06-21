@@ -1,0 +1,251 @@
+.hero {
+  display: flex;
+  max-height: 437px;
+}
+
+.hero-text {
+  max-width: 600px;
+  margin-right: 78px;
+}
+
+.hero h1 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 125%;
+  max-width: 604px;
+}
+
+.hero-text ul {
+  margin-top: 40px;
+  margin-left: 14px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hero-text li {
+  list-style: disc;
+  padding: 4px;
+  margin-right: 30px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.hero-text li::marker {
+  color: #D00029;
+}
+
+.hero button {
+  background: #D00029;
+  border: 1px solid #D00029;
+  border-radius: 30px;
+  color: #fff;
+  padding: 16px 32px;
+  margin-top: 80px;
+}
+
+
+.img-b {
+  position: absolute;
+  max-width: 216px;
+  margin-left: 138px;
+}
+
+.img-t {
+  position: relative;
+  max-width: 546px;
+  margin-top: 217px;
+}
+
+.advantages {
+  margin-top: 124px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 140px;
+  max-width: 1344px;
+  margin: 0 auto;
+}
+
+.advantages div {
+  padding-bottom: 10px;
+  width: 289px;
+  height: 206px;
+}
+
+.advantage-card1 {
+  position: relative;
+  background-image: url(/img/advantage-card1.svg);
+}
+
+.advantage-card1::after {
+  content: "";
+  background-image: url(/img/advantage-card1-hover.svg);
+  opacity: 0;
+  transition: opacity 0.5s;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.advantage-card1:hover::after {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.advantage-card2 {
+  position: relative;
+  background-image: url(/img/advantage-card2.svg);
+}
+
+.advantage-card2::after {
+  content: "";
+  background-image: url(/img/advantage-card2-hover.svg);
+  opacity: 0;
+  transition: opacity 0.5s;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.advantage-card2:hover::after {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.advantage-card3 {
+  position: relative;
+  background-image: url(/img/advantage-card3.svg);
+}
+
+.advantage-card3::after {
+  content: "";
+  background-image: url(/img/advantage-card3-hover.svg);
+  opacity: 0;
+  transition: opacity 0.5s;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.advantage-card3:hover::after {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.advantage-card4 {
+  position: relative;
+  background-image: url(/img/advantage-card4.svg);
+}
+
+.advantage-card4::after {
+  content: "";
+  background-image: url(/img/advantage-card4-hover.svg);
+  opacity: 0;
+  transition: opacity 0.5s;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.advantage-card4:hover::after {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.actions {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.h1-actions {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 32px;
+  margin-bottom: 70px;
+}
+
+.products-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 52px;
+}
+
+.product-min {
+  max-width: 204px;
+  height: min-content;
+  border: 1px solid #F4F4F4;
+  border-radius: 20px;
+  padding: 8px 8px 24px 8px;
+
+}
+
+.product-min:hover {
+  border: 1px solid #D00029;
+}
+
+.product-min img {
+  max-width: 130px;
+}
+
+.actions-deadlines {
+  border: 0.5px solid #D00029;
+  border-radius: 15px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  text-align: center;
+  padding: 4px 16px;
+  margin: 28px 0px 12px 0px;
+  max-width: max-content;
+}
+
+.product-min-card {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 138%;
+
+}
+
+.button-product {
+  background: #D00029;
+  border-radius: 25px;
+  align-items: center;
+  padding: 10px 56px;
+  display: none;
+  margin-top: 15px;
+}
+
+.button-product a {
+  color: #fff;
+}
+
+.product-min:hover .button-product {
+  display: block;
+}
+
+.button-more {
+  display: flex;
+  background: #D00029;
+  border-radius: 25px;
+  padding: 10px 16px;
+  max-width: 125px;
+  margin: 0 auto;
+
+}
+
+.button-more a {
+  color: #fff;
+}

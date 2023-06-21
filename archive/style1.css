@@ -1,0 +1,97 @@
+  .row {
+    max-width: 1344px;
+  }
+
+  .footer {
+    margin-top: 100px;
+    border-top: 1px solid #D00029;
+    padding-top: 55px;
+  }
+
+  .footer-li {
+    margin-bottom: 14px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000000;
+    line-height: 22px;
+  }
+
+  /*Header*/
+
+  .row-header {
+    margin-top: 96px;
+  }
+
+  .h1-header {
+    max-width: 604px;
+  }
+
+  .img-head-1 {
+    position: absolute;
+    max-width: 546px;
+    margin-left: 138px;
+  }
+
+  .img-head-2 {
+    position: relative;
+    max-width: 216px;
+    margin-top: 217px;
+  }
+
+  .header-ul {
+    margin-top: 40px;
+    padding-left: 14px;
+  }
+
+  .header-li {
+    color: red;
+    /* Цвет маркеров */
+  }
+
+  li span {
+    color: black;
+    /* Цвет текста */
+  }
+
+  .btn-header {
+    width: 267px;
+    height: 50px;
+    margin-top: 80px;
+    border-radius: 30px;
+  }
+
+
+
+  /* Style the list */
+  ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+  }
+
+  /* Display list items side by side */
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 12px;
+  }
+
+  /* Add a slash symbol (/) before/behind each list item */
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+
+  /* Add a color to all links inside the list */
+  ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+  }
+
+  /* Add a color on mouse-over */
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
