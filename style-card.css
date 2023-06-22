@@ -36,7 +36,6 @@ body {
   width: 100%;
   font-size: 100%;
   line-height: 1;
-  font-size: 0.97vw;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -118,10 +117,9 @@ ul {
 }
 
 .myMenu {
-  margin-top: 2.60vw;
-  margin-bottom: 5.69vw;
-  max-width: 75vw;
   display: flex;
+  max-height: 190px;
+  margin-top: 50px;
 }
 
 .topMenu {
@@ -129,6 +127,14 @@ ul {
   width: 100%;
   margin-bottom: 3.06vw;
   flex-shrink: 1;
+}
+
+.rightMenu {
+  width: 1073px;
+}
+
+.geo-icon {
+  margin-right: 4px;
 }
 
 .topMenu-ul {
@@ -150,10 +156,11 @@ ul {
 }
 
 .geo {
-  font-size: 0.56vw;
+  font-size: 10px;
   line-height: 0.69vw;
   width: max-content;
-  margin-right: 40px;
+  margin-right: 70px;
+  font-weight: 500;
 }
 
 .geo-a {
@@ -163,15 +170,14 @@ ul {
 
 .myLogo {
   padding-right: 20px;
+  width: 204px;
+  margin-right: 50px;
+  margin-left: 40px;
 }
 
-.a-logo {
-  background-image: url(img/LOGO.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  display: block;
-  width: 12vw;
-  height: 100%;
+.myLogo img {
+  width: 204px;
+  padding-top: 10px;
 }
 
 .bottomMenu {
@@ -181,39 +187,25 @@ ul {
 
 .bottomMenu-ul {
   display: flex;
+  justify-content: center;
   align-items: center;
-}
-
-.catalog {
-  position: absolute;
-  height: 2.85vw;
-  width: 8.91vw;
-  align-content: center;
-  padding: 7px 0;
 }
 
 .catalog-btn {
   background: #D00029;
   border: 1px solid #D00029;
-  border-radius: 1.30vw;
-  width: 8.91vw;
-  height: 2.08vw;
+  border-radius: 25px;
+  width: 171px;
+  height: 40px;
   margin-right: 48px;
-}
-
-.catalog-txt {
   color: #fff;
-  font-size: 0.83vw;
-  line-height: 1.11vw;
-  display: block;
 }
 
 .submenu {
   box-shadow: 0px 4px 4px rgba(208, 0, 41, 0.25);
   border-radius: 15px;
   font-weight: 500;
-  font-size: 1.39vw;
-  z-index: 5;
+  font-size: 20px;
   transform-origin: 0 0;
   transform: rotateX(90deg);
   transition: .3s linear;
@@ -238,15 +230,18 @@ ul {
   visibility: visible;
   opacity: 1;
   transform: rotateX(0deg);
-
 }
 
 .submenu-li {
-  width: 21.74vw;
-  height: 4.72vw;
+  width: 318px;
+  height: 68px;
   align-content: center;
-  padding-left: 2.78vw;
-  padding-top: 1.60vw;
+  padding-left: 53px;
+  padding-top: 30px;
+}
+
+.submenu-li img {
+  padding-left: 120px;
 }
 
 .submenu-brands {
@@ -261,8 +256,8 @@ ul {
   height: 50px;
   padding-right: 100px;
   width: 130px;
-  font-size: 1.11vw;
-  line-height: 1.11vw;
+  font-size: 20px;
+  line-height: 100%;
 }
 
 .line-catalog {
@@ -274,27 +269,27 @@ ul {
 .myInput {
   border: 1px solid #D00029;
   border-radius: 15px;
-  width: 55%;
+  width: 600px;
   height: 1.67vw;
   padding-left: 1.25vw;
   z-index: 2;
-  margin-left: 21%;
+  margin-left: 255px;
   position: absolute;
-  top: 0;
   left: 0;
-  font-size: 0.83vw;
+  font-size: 12px;
+  margin-top: 7px;
 }
 
 .serch-btn {
   background-color: #D00029;
   height: 1.67vw;
-  width: 8.26vw;
-  font-size: 0.73vw;
+  width: 119px;
+  font-size: 14px;
   color: #fff;
   border-radius: 15px;
   cursor: pointer;
-  margin-left: 460%;
-
+  margin-left: 510px;
+  margin-top: 7px;
 }
 
 .popup {
@@ -389,7 +384,7 @@ ul {
 .popup-title {
   font-weight: 500;
   font-size: 18px;
-  padding: 0 3.33vw;
+  padding: 0 3vw;
   margin: 0 auto;
   margin-top: 3.33vw;
   margin-bottom: 2.22vw;
@@ -420,12 +415,11 @@ ul {
 }
 
 .popup-btn {
-  width: 272px;
+  width: 227px;
   height: 52px;
   background: #D00029;
   border-radius: 30px;
-  margin: 54px 491px 67px 3.33vw;
-
+  margin: 45px 491px 67px 3.33vw;
   font-style: normal;
   font-size: 20px;
 }
