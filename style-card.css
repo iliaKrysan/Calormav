@@ -239,6 +239,8 @@ ul {
   align-content: center;
   padding-left: 53px;
   padding-top: 30px;
+  z-index: 2;
+
 }
 
 .submenu-li img {
@@ -250,6 +252,7 @@ ul {
   height: 201px;
   padding: 30px;
   padding-left: 80px;
+  z-index: 2;
 }
 
 .submenu-brands-li {
@@ -259,6 +262,8 @@ ul {
   width: 130px;
   font-size: 20px;
   line-height: 100%;
+  z-index: 100;
+
 }
 
 .line-catalog {
@@ -572,7 +577,7 @@ ol {
   max-height: 170px;
   width: min-content;
   padding: 0;
-  z-index: 50;
+  z-index: 1;
 }
 
 .card-ul-technic {
