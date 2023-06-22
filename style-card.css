@@ -63,6 +63,7 @@ button::-moz-focus-inner {
 a,
 a:visited {
   text-decoration: none;
+  cursor: pointer;
 }
 
 a:hover {
@@ -449,6 +450,7 @@ a {
   text-decoration: none;
   display: block;
   color: #363636
+  
 }
 
 ul {
@@ -570,6 +572,7 @@ ol {
   max-height: 170px;
   width: min-content;
   padding: 0;
+  z-index: 50;
 }
 
 .card-ul-technic {
@@ -582,6 +585,7 @@ ol {
   font-size: 0.97vw;
   line-height: 18px;
   color: #EA655A;
+  cursor: pointer;
 }
 
 /*Табы*/
@@ -726,62 +730,61 @@ ol {
 
 .help {
   display: flex;
-  margin-bottom: 151px;
+  margin-top: 172px;
+  margin-bottom: 150px;
 }
 
-.help-img {
-  width: 100%;
+.help img {
   max-width: 660px;
-  padding-right: 24px;
 }
 
-.help-form {
-  width: 50%;
-  flex-shrink: 1;
+.help-text {
+  margin-left: 24px;
+}
+
+.help-text-h {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 117%;
+  max-width: 467px;
+  margin-bottom: 16px;
+}
+
+.help-text-p {
+  max-width: 270px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 138%;
+}
+
+.help-text form {
   display: flex;
   flex-direction: column;
+  margin-top: 32px;
+  gap: 16px;
 }
 
-.help-form-input {
-  display: flex;
-  flex-direction: column;
-}
-
-.help-form-input-place {
+.help-text input {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #000000;
   border: 0.5px solid rgba(53, 89, 54, 0.5);
   border-radius: 15px;
+  padding: 16px;
+  padding-right: 25.21vw;
   max-width: 660px;
-  max-height: 3.33vw;
-  font-size: 1.2vw;
-  line-height: 2vw;
-  padding: 1.11vw;
-  margin-bottom: 1vw;
 }
 
-.help-h2 {
-  font-weight: 600;
-  font-size: 3vw;
-  line-height: 3.5vw;
-  margin-bottom: 1.11vw;
-}
-
-.help-p {
-  font-size: 1.2vw;
-  line-height: 2vw;
-  margin-bottom: 1vw;
-}
-
-.btn-help {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 1.5vw;
-  line-height: 20px;
-  color: #FFFFFF;
+.help-btn {
+  padding: 16px 56px;
   background: #D00029;
   border-radius: 30px;
-  max-width: min-content;
-  max-height: min-content;
-  padding: 1.11vw 56px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin-top: 48px;
 }
 
 /*Footer*/
