@@ -10,6 +10,9 @@
   <link rel="stylesheet" href="style-card.css">
   <link rel="stylesheet" href="style-service-page.css">
   <link rel="stylesheet" href="style-index.css">
+  <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
 
 </head>
 
@@ -37,7 +40,7 @@
             <li class="topMenu-li"><a href="delivery.html">
                 Доставка
               </a></li>
-            <li class="topMenu-li"><a href="#">
+            <li class="topMenu-li"><a href="#objects">
                 Объекты
               </a></li>
             <li class="topMenu-li"><a href="contacts.html">
@@ -197,107 +200,208 @@
       </div>
 
       <button class="button-more"><a href="">Загрузить еще</a></button>
+    </section>
 
-      <!-------------- Хиты продаж ------------->
 
-      <section class="actions">
-        <p class="h1-actions">
-          Хиты продаж
+    <!-------------- Хиты продаж ------------->
+
+    <section class="actions">
+      <p class="h1-actions">
+        Хиты продаж
+      </p>
+
+      <div class="products-actions">
+        <div class="product-min">
+          <img src="img/FLAGMAN/flagman34.jpg" alt="flagman34">
+          <div class="product-min-card">Краска FLAGMAN 34 интерьерная</div>
+          <button class="button-product"> <a href="">Подробнее</a> </button>
+        </div>
+        <div class="product-min">
+          <img src="img/FLAGMAN/flagman34.jpg" alt="flagman34">
+          <div class="product-min-card">Краска FLAGMAN 34 интерьерная</div>
+          <button class="button-product"> <a href="">Подробнее</a> </button>
+        </div>
+        <div class="product-min">
+          <img src="img/FLAGMAN/flagman34.jpg" alt="flagman34">
+          <div class="product-min-card">Краска FLAGMAN 34 интерьерная</div>
+          <button class="button-product"> <a href="">Подробнее</a> </button>
+        </div>
+        <div class="product-min">
+          <img src="img/FLAGMAN/flagman34.jpg" alt="flagman34">
+          <div class="product-min-card">Краска FLAGMAN 34 интерьерная</div>
+          <button class="button-product"> <a href="">Подробнее</a> </button>
+        </div>
+        <div class="product-min">
+          <img src="img/FLAGMAN/flagman34.jpg" alt="flagman34">
+          <div class="product-min-card">Краска FLAGMAN 34 интерьерная</div>
+          <button class="button-product"> <a href="">Подробнее</a> </button>
+        </div>
+      </div>
+
+      <button class="button-more"><a href="">Загрузить еще</a></button>
+    </section>
+
+
+    <!-------------- Форма обратной связи ------------->
+
+    <section class="help">
+      <img src="img/picture.png" alt="picture">
+      <div class="help-text">
+        <p class="help-text-h">
+          Поможем сделать выбор
+        </p>
+        <p class="help-text-p">
+          Заполните форму обратной связи,
+          и наш специалист свяжется с вами
         </p>
 
-        <div class="products-actions">
-          <div class="product-min">
-            <img src="img/FLAGMAN/flagman34.jpg" alt="flagman34">
-            <div class="product-min-card">Краска FLAGMAN 34 интерьерная</div>
-            <button class="button-product"> <a href="">Подробнее</a> </button>
-          </div>
-          <div class="product-min">
-            <img src="img/FLAGMAN/flagman34.jpg" alt="flagman34">
-            <div class="product-min-card">Краска FLAGMAN 34 интерьерная</div>
-            <button class="button-product"> <a href="">Подробнее</a> </button>
-          </div>
-          <div class="product-min">
-            <img src="img/FLAGMAN/flagman34.jpg" alt="flagman34">
-            <div class="product-min-card">Краска FLAGMAN 34 интерьерная</div>
-            <button class="button-product"> <a href="">Подробнее</a> </button>
-          </div>
-          <div class="product-min">
-            <img src="img/FLAGMAN/flagman34.jpg" alt="flagman34">
-            <div class="product-min-card">Краска FLAGMAN 34 интерьерная</div>
-            <button class="button-product"> <a href="">Подробнее</a> </button>
-          </div>
-          <div class="product-min">
-            <img src="img/FLAGMAN/flagman34.jpg" alt="flagman34">
-            <div class="product-min-card">Краска FLAGMAN 34 интерьерная</div>
-            <button class="button-product"> <a href="">Подробнее</a> </button>
-          </div>
+        <form action="">
+          <input type="text" class="formContacts" id="colFormName" placeholder="Иванов Иван">
+          <input type="tel" class="formContacts" id="colFormTel" placeholder="+7 123 456 78 90">
+          <input type="email" class="formContacts" id="colFormEmail" placeholder="stroitel@g.mail.com">
+        </form>
+
+        <button type="button" class="help-btn">Отправить</button>
+
+      </div>
+    </section>
+
+    <!-------------- Бегущая строка ------------->
+
+    <section class="ticker">
+      <div class="items-wrap">
+        <div class="items marquee">
+          <a href="" class="item"><img src="img/brands/bastion.svg" alt="bastion"></a>
+          <a href="" class="item"><img src="img/brands/bettex.svg" alt="bettex"></a>
+          <a href="" class="item"><img src="img/brands/brava.svg" alt="brava"></a>
+          <a href="" class="item"><img src="img/brands/ecol.svg" alt="ecol"></a>
+          <a href="" class="item"><img src="img/brands/epozinc.svg" alt="epozinc"></a>
+          <a href="" class="item"><img src="img/brands/belakor.svg" alt="belakor"></a>
+          <a href="" class="item"><img src="img/brands/express.svg" alt="express"></a>
+          <a href="" class="item"><img src="img/brands/haus-master.svg" alt="haus-master"></a>
+          <a href="" class="item"><img src="img/brands/monolit.svg" alt="monolit"></a>
+          <a href="Flagman.html" class="item"><img src="img/brands/picture.svg" alt="picture"></a>
+          <a href="" class="item"><img src="img/brands/profitex.svg" alt="profitex"></a>
+          <a href="" class="item"><img src="img/brands/protexsol.svg" alt="protexsol"></a>
+          <a href="" class="item"><img src="img/brands/viola.svg" alt="viola"></a>
         </div>
-
-        <button class="button-more"><a href="">Загрузить еще</a></button>
-      </section>
-
-
-      <!-------------- Форма обратной связи ------------->
-
-      <section class="help">
-        <img src="img/picture.png" alt="picture">
-        <div class="help-text">
-          <p class="help-text-h">
-            Поможем сделать выбор
-          </p>
-          <p class="help-text-p">
-            Заполните форму обратной связи,
-            и наш специалист свяжется с вами
-          </p>
-
-          <form action="">
-            <input type="text" class="formContacts" id="colFormName" placeholder="Иванов Иван">
-            <input type="tel" class="formContacts" id="colFormTel" placeholder="+7 123 456 78 90">
-            <input type="email" class="formContacts" id="colFormEmail" placeholder="stroitel@g.mail.com">
-          </form>
-
-          <button type="button" class="help-btn">Отправить</button>
-
+        <div aria-hidden="true" class="items marquee">
+          <a href="" class="item"><img src="img/brands/bastion.svg" alt="bastion"></a>
+          <a href="" class="item"><img src="img/brands/bettex.svg" alt="bettex"></a>
+          <a href="" class="item"><img src="img/brands/brava.svg" alt="brava"></a>
+          <a href="" class="item"><img src="img/brands/ecol.svg" alt="ecol"></a>
+          <a href="" class="item"><img src="img/brands/epozinc.svg" alt="epozinc"></a>
+          <a href="" class="item"><img src="img/brands/belakor.svg" alt="belakor"></a>
+          <a href="" class="item"><img src="img/brands/express.svg" alt="express"></a>
+          <a href="" class="item"><img src="img/brands/haus-master.svg" alt="haus-master"></a>
+          <a href="" class="item"><img src="img/brands/monolit.svg" alt="monolit"></a>
+          <a href="" class="item"><img src="img/brands/picture.svg" alt="picture"></a>
+          <a href="" class="item"><img src="img/brands/profitex.svg" alt="profitex"></a>
+          <a href="" class="item"><img src="img/brands/protexsol.svg" alt="protexsol"></a>
+          <a href="" class="item"><img src="img/brands/viola.svg" alt="viola"></a>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-------------- Бегущая строка ------------->
 
-      <section class="ticker">
-        <div class="items-wrap">
-          <div class="items marquee">
-            <a href="" class="item"><img src="img/brands/bastion.svg" alt="bastion"></a>
-            <a href="" class="item"><img src="img/brands/bettex.svg" alt="bettex"></a>
-            <a href="" class="item"><img src="img/brands/brava.svg" alt="brava"></a>
-            <a href="" class="item"><img src="img/brands/ecol.svg" alt="ecol"></a>
-            <a href="" class="item"><img src="img/brands/epozinc.svg" alt="epozinc"></a>
-            <a href="" class="item"><img src="img/brands/belakor.svg" alt="belakor"></a>
-            <a href="" class="item"><img src="img/brands/express.svg" alt="express"></a>
-            <a href="" class="item"><img src="img/brands/haus-master.svg" alt="haus-master"></a>
-            <a href="" class="item"><img src="img/brands/monolit.svg" alt="monolit"></a>
-            <a href="Flagman.html" class="item"><img src="img/brands/picture.svg" alt="picture"></a>
-            <a href="" class="item"><img src="img/brands/profitex.svg" alt="profitex"></a>
-            <a href="" class="item"><img src="img/brands/protexsol.svg" alt="protexsol"></a>
-            <a href="" class="item"><img src="img/brands/viola.svg" alt="viola"></a>
+
+    <!-------------- Фото объектов ------------->
+
+    <section class="objects" id="objects">
+
+      <div class="objects-h1">
+        Фото объектов
+      </div>
+
+      <div class="objects-photo">
+        <img src="img/Objects/изображение_viber_2023-04-28_11-46-28-658.jpg" alt="objects">
+        <img src="img/Objects/изображение_viber_2023-04-28_11-46-33-574.jpg" alt="objects">
+        <img src="img/Objects/изображение_viber_2023-04-28_11-46-34-217.jpg" alt="objects">
+        <img src="img/Objects/изображение_viber_2023-04-28_11-49-45-789 1.jpg" alt="objects">
+      </div>
+
+      <button class="button-more"><a href="">Загрузить еще</a></button>
+
+    </section>
+
+
+
+    <!-------------- Вопрос-ответ ------------->
+
+
+    <div class="objects-h1">
+      Вопрос-ответ
+    </div>
+
+    <section class="FAQ">
+
+      <div class="accordion">
+        <div class="accordion-item" id="question1">
+          <a class="accordion-link" href="#question1">
+            <div class="flex">
+              <h3>BRANDING</h3>
+
+            </div>
+            <i class="icon ion-md-arrow-forward"></i>
+            <i class="icon ion-md-arrow-down"></i>
+          </a>
+          <div class="answer">
+            <p> We believe in the greater good, we strive to do something for people, we aim to make their lives easier
+              and more enjoyable, we love businesses that keep this</p>
           </div>
-          <div aria-hidden="true" class="items marquee">
-            <a href="" class="item"><img src="img/brands/bastion.svg" alt="bastion"></a>
-            <a href="" class="item"><img src="img/brands/bettex.svg" alt="bettex"></a>
-            <a href="" class="item"><img src="img/brands/brava.svg" alt="brava"></a>
-            <a href="" class="item"><img src="img/brands/ecol.svg" alt="ecol"></a>
-            <a href="" class="item"><img src="img/brands/epozinc.svg" alt="epozinc"></a>
-            <a href="" class="item"><img src="img/brands/belakor.svg" alt="belakor"></a>
-            <a href="" class="item"><img src="img/brands/express.svg" alt="express"></a>
-            <a href="" class="item"><img src="img/brands/haus-master.svg" alt="haus-master"></a>
-            <a href="" class="item"><img src="img/brands/monolit.svg" alt="monolit"></a>
-            <a href="" class="item"><img src="img/brands/picture.svg" alt="picture"></a>
-            <a href="" class="item"><img src="img/brands/profitex.svg" alt="profitex"></a>
-            <a href="" class="item"><img src="img/brands/protexsol.svg" alt="protexsol"></a>
-            <a href="" class="item"><img src="img/brands/viola.svg" alt="viola"></a>
-          </div>
+          <hr>
         </div>
-      </section>
+        <div class="accordion-item" id="question2">
+          <a class="accordion-link" href="#question2">
+            <div class="flex">
+              <h3>UX/UI DESIGN</h3>
 
+            </div>
+            <i class="icon ion-md-arrow-forward"></i>
+            <i class="icon ion-md-arrow-down"></i>
+          </a>
+          <div class="answer">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+          </div>
+          <hr>
+        </div>
+        <div class="accordion-item" id="question3">
+          <a class="accordion-link" href="#question3">
+            <div class="flex">
+              <h3>FRONTEND DEVELOPMENT</h3>
+
+            </div>
+            <i class="icon ion-md-arrow-forward"></i>
+            <i class="icon ion-md-arrow-down"></i>
+          </a>
+          <div class="answer">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+          </div>
+          <hr>
+        </div>
+        <div class="accordion-item" id="question4">
+          <a class="accordion-link" href="#question4">
+            <div>
+              <h3>BACKEND DEVELOPMENT</h3>
+
+            </div>
+            <i class="icon ion-md-arrow-forward"></i>
+            <i class="icon ion-md-arrow-down"></i>
+          </a>
+          <div class="answer">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+          </div>
+          <hr>
+        </div>
+      </div>
+
+    </section>
 
   </div>
 
