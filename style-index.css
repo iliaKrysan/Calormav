@@ -183,7 +183,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 52px;
 }
 
 .product-min {
@@ -192,11 +191,12 @@
   border: 1px solid #F4F4F4;
   border-radius: 20px;
   padding: 8px 8px 24px 8px;
-
+  margin-bottom: 80px;
 }
 
 .product-min:hover {
   border: 1px solid #D00029;
+margin-bottom: 26px;
 }
 
 .product-min img {
@@ -229,7 +229,7 @@
   padding: 10px 56px;
   display: none;
   margin-top: 15px;
-}
+  }
 
 .button-product a {
   color: #fff;
