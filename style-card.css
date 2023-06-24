@@ -426,7 +426,7 @@ ul {
   height: 52px;
   background: #D00029;
   border-radius: 30px;
-  margin: 45px 491px 67px 3.33vw;
+  margin: 30px 491px 20px 50px;
   font-style: normal;
   font-size: 20px;
 }
@@ -441,7 +441,6 @@ ul {
   height: 34px;
   background: #D00029;
   border-radius: 25px;
-  padding: 8px 2.22vw;
   margin-top: 2.22vw;
   font-style: normal;
   font-size: 0.97vw;
