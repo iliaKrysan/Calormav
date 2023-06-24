@@ -121,6 +121,7 @@ ul {
   display: flex;
   max-height: 124px;
   margin-top: 50px;
+  margin-bottom: 82px;
 }
 
 .topMenu {
@@ -193,13 +194,9 @@ ul {
 }
 
 .catalog {
-  max-height: 40px;
-  max-width: 171px;
-}
-
-.catalog:hover {
-  max-width: min-content;
-  max-height: min-content;
+  height: 40px;
+  width: 171px;
+  margin-bottom: 82px;
 }
 
 .catalog-btn {
@@ -223,6 +220,7 @@ ul {
   visibility: hidden;
   opacity: 0;
   background-color: #fff;
+  position: absolute;
 }
 
 .submenu li {
@@ -280,28 +278,25 @@ ul {
 
 .myInput {
   border: 1px solid #D00029;
-  border-radius: 15px;
-  width: 600px;
-  height: 1.67vw;
-  padding-left: 1.25vw;
-  z-index: 2;
-  margin-left: 255px;
+  border-radius: 25px;
+  width: 659px;
+  height: 40px;
+  padding-left: 16px;
+  font-size: 14px;
+  margin-left: 50px;
   position: absolute;
-  left: 0;
-  font-size: 12px;
-  margin-top: 7px;
 }
 
 .serch-btn {
   background-color: #D00029;
-  height: 1.67vw;
+  height: 40px;
   width: 119px;
   font-size: 14px;
   color: #fff;
-  border-radius: 15px;
+  border-radius: 25px;
   cursor: pointer;
-  margin-left: 510px;
-  margin-top: 7px;
+  z-index: -1;
+  margin-left: 680px;
 }
 
 .popup {
