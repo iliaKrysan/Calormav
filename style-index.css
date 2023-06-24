@@ -1,6 +1,7 @@
 .hero {
   display: flex;
   max-height: 437px;
+  margin-top: 96px;
 }
 
 .hero-text {
@@ -44,17 +45,18 @@
   margin-top: 80px;
 }
 
-
 .img-b {
   position: absolute;
   max-width: 216px;
   margin-left: 138px;
+  z-index: -1;
 }
 
 .img-t {
   position: relative;
   max-width: 546px;
   margin-top: 217px;
+  z-index: 0;
 }
 
 .advantages {
@@ -379,8 +381,6 @@
   margin-bottom: 48px;
 }
 
-.objects-photo img{
-}
 
 
 /*     Аккордеон          */
@@ -392,21 +392,13 @@
   justify-content: center;
   box-sizing: border-box;
   flex-direction: column;
+  margin-bottom: 158px;
 }
 
-.FAQ-h1{
-  left: 0;
-}
-
-.accordion-item{
-  border-radius: .4rem;
-}
-
-.accordion-link{
+.accordion-link {
   font-size: 1.6rem;
   color: #363636;
   text-decoration: none;
-  
   width: 100%;
   display: flex;
   align-items: center;
@@ -414,61 +406,61 @@
   padding: 1rem 0;
 }
 
-.accordion-link h3{
-  font-weight:500;
-  font-size: 20px;
+.accordion-link h3 {
+  font-weight: 500;
+  font-size: 24px;
 }
 
-.accordion-link i{
-  color: #363636;
+.accordion-link i {
+  color: #D00029;
   padding: .5rem;
 }
 
-.accordion-link ul{
-  display:flex;
+.accordion-link ul {
+  display: flex;
   align-items: flex-end;
   list-style-type: none;
   margin-left: 25px;
 }
 
-.accordion-link li{
+.accordion-link li {
   font-size: 10px;
   color: #363636;
   padding: 0 0 1px 5px;
 }
 
-.accordion-link div{
+.accordion-link div {
   display: flex;
 }
 
-.accordion-link .ion-md-arrow-down{
+.accordion-link .ion-md-arrow-down {
   display: none;
+  color: #D00029;
+
 }
 
-.answer{
+.answer {
   max-height: 0;
   overflow: hidden;
   position: relative;
   transition: max-height 650ms;
 }
 
-
-
-.answer p{
-  color:  #363636;
-  font-size: 15px;
+.answer p {
+  color: #363636;
+  font-size: 18px;
+  line-height: 22px;
   padding: 2rem;
-  
 }
 
-.accordion-item:target .answer{
+.accordion-item:target .answer {
   max-height: 20rem;
 }
 
-.accordion-item:target .accordion-link .ion-md-arrow-forward{
-  display: none
+.accordion-item:target .accordion-link .ion-md-arrow-forward {
+  display: none;
 }
 
-.accordion-item:target .accordion-link .ion-md-arrow-down{
+.accordion-item:target .accordion-link .ion-md-arrow-down {
   display: block;
 }
